@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Gym - Home</title>
+    <link rel="stylesheet" href="officialwebsitecss.css">
+</head>
+<body>
+
+    <nav>
+        <img src="C:\Users\nanda\legym.jpg" id="gymlogo" >
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header><div style="justify-items: auto;">
+        <img class="mySlides" src="C:\Users\nanda\gym db.jpg" style="display: block; height: 400px; margin-left: auto; margin-right: auto;"> 
+        <img class="mySlides" src="C:\Users\nanda\gym dumbells.jpg"  style="display: block; height: 400px; margin-left: auto; margin-right: auto;">
+        <img class="mySlides" src="C:\Users\nanda\gym machines.jpg" style="display: block; height: 400px; margin-left: auto; margin-right: auto;">
+        <img class="mySlides" src="C:\Users\nanda\gym interiotr.webp" style="display: block; height: 400px; margin-left: auto; margin-right: auto;">
+        <img class="mySlides" src="C:\Users\nanda\gym interior 3.jpeg" style="display: block; height: 400px; margin-left: auto; margin-right: auto;"> 
+        <img class="mySlides" src="C:\Users\nanda\gym interior 2.jpg" style="display: block; height: 400px; margin-left: auto; margin-right: auto;"> 
+        <h1 >Welcome to Leo Gym</h1>
+        <button onclick="window.location.href='contact.html'">Join Now</button></div>
+    </header>
+<div class="gridcontainer"  style="background-color: black;"> 
+    <DIV style="font-size: larger; color: white; font-weight: bolder; padding-left: 40px;">WHY CHOOSE US ? </DIV>
+    <div style="padding-top: 10px; padding-left: 27px; color: #ff6600;"> have a sneak peek inside our gym ! </div>
+<ol>
+    <li> Located at the heart of Jammu city.</li>
+    <li> Oldest Gym in Jammu since 1991.</li>
+    <li> Most spacious Gym in Jammu.</li>
+    <li> World class equipment & machinery</li>
+    <li> Complete range of fitline accessories.</li>
+    <li> Well qualified trainer & staff.</li>
+    <li> Customised workout plans and diet charts.</li>
+</ol>
+
+    <img src="C:\Users\nanda\gym machines.jpg" style=" height: 500px; margin-left: 200px; margin-right: 100px; padding-left: 350px; margin-bottom: 200px" >
+<img src="C:\Users\nanda\gum pull up.jpg"  id="gymgirl">
+</div>
+    <div class="container">
+        <h2>Your Fitness Journey Begins Here</h2>
+        <p>Leo Gym offers a wide range of services to help you achieve your fitness goals, whether you're a beginner or an experienced athlete. Join us and take your fitness to the next level.</p>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Leo Gym</p>
+    </footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+
+</html>
