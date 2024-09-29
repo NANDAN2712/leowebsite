@@ -13,6 +13,10 @@ body {
     color: #333;width:100%;
     
 }
+
+    
+
+
 #gymlogo{ display: block; height: 200px;margin-left: auto;
     margin-right: auto;text-align: center;
     
@@ -53,7 +57,7 @@ nav a:hover {
  background-color: #ffffff;
     margin: auto;
 }
-.gridcontainer1{
+.gridcontainer1{ margin-top: 40px;
     display:flex; background-color: black;width: 100%; justify-content: space-around; padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
